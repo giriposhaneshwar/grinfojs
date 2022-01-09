@@ -1,5 +1,5 @@
 // eslint-disbale-next-line no-unused-vars
-import firebase from './services/firebaseService';
+// import firebase from './services/firebaseService';
 
 function App() {
   return (
