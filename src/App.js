@@ -1,5 +1,5 @@
 // eslint-disbale-next-line no-unused-vars
-// import firebase from './services/firebaseService';
+import firebase from './services/firebaseService';
 import React, { useState, useEffect } from 'react';
 function App() {
   const [user, setUser] = useState("");
