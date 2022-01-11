@@ -12,6 +12,7 @@ const Layout = ({ header, body, footer, menu }) => {
             <div className="main-container">
                 <div className="header-section">
                     <div className="header">
+                        {params}
                         {header}
                     </div>
                 </div>
