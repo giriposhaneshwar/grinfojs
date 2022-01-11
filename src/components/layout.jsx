@@ -8,21 +8,21 @@ const Layout = ({ header, body, footer, menu }) => {
         setParams("Giriy")
     })
     return (
-        <>  Layout : {params}
+        <>
             <div className="main-container">
                 <div className="header-section">
                     <div className="header">
-                        {(header && header !== null) && <header />}
+                        {header}
                     </div>
                 </div>
                 <div className="body-section">
                     <div className="body">
-                        {(body && body !== null) && <body />}
+                        {body}
                     </div>
                 </div>
                 <div className="footer-section">
                     <div className="footer">
-                        {(footer && footer !== null) && <footer />}
+                        {footer}
                     </div>
                 </div>
             </div>
