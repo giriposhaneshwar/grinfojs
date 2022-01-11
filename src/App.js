@@ -17,7 +17,12 @@ function App() {
 
   return (
     <div className="App">
-      <Layout />
+      <Layout
+        header={<div>Header</div>}
+        body={<div>Body</div>}
+        footer={<div>Footer</div>}
+        menu={<div>Menu</div>}
+      />
     </div>
   );
 }
